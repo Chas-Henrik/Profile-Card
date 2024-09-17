@@ -1,12 +1,11 @@
-
-.profile-card-container {
-    margin: 10px;
-}
-
-.border-box {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+.profile-card-container {
+    margin: 10px;
 }
 
 .profile-card-container{
@@ -42,7 +41,7 @@
 
 .profile-card-image {
     position: relative;
-    top: 15%;
+    top: 20%;
     z-index: 5;
     height: 90%;
     border-radius: 50%;
