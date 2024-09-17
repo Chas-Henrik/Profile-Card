@@ -19,6 +19,9 @@
 }
 
 .profile-card {
+    position: relative;
+    top: 0;
+    z-index: 0;
     margin: 20px;
     min-width: 150px;
     max-width: 250px;
@@ -33,6 +36,9 @@
 }
 
 .profile-card-top {
+    position: relative;
+    top: 0;
+    z-index: 1;
     height: 30%;
     border-radius: 15px 15px 15px 15px;
     background-image: linear-gradient(180deg, #9fc8ff, #054daa);
@@ -49,6 +55,9 @@
 }
 
 .profile-card-bottom {
+    position: relative;
+    top: 0;
+    z-index: 1;
     height: 70%;
     display: block;
     background-image: linear-gradient(180deg, #d2fab1, rgb(4, 192, 4));
@@ -57,6 +66,9 @@
 }
 
 h2.profile-card-name {
+    position: relative;
+    top: 0;
+    z-index: 2;
     font-size: 1.5em;
     margin-top: 7%;
     margin-bottom: 4%;
@@ -65,13 +77,18 @@ h2.profile-card-name {
 }
 
 p.profile-card-description {
+    position: relative;
+    top: 0;
+    z-index: 2;
     height: 50%;
     margin: 0%;
     overflow: hidden;
-    text-overflow: ellipsis ellipsis;
 }
 
 .profile-card-button {
+    position: relative;
+    top: 0;
+    z-index: 2;
     margin: 4%;
     height: 15%;
     font-size: 1.0em;
